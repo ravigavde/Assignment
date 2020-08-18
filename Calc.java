@@ -4,10 +4,6 @@ public class Calc
     {
         return(a+b);
     }
-    int mul(int a,int b)
-    {
-        return(a*b);
-    }
     int sub(int a, int b)
     {
         if((a-b)>0)
@@ -29,7 +25,6 @@ public class Calc
         System.out.println("Enter Second number :-");
         b = sc.nextInt();
         System.out.println("Addition is :- "+c.add(a,b));
-        System.out.println("Multiplication is :- "+c.mul(a,b));
         System.out.println("Subtraction is :- "+c.sub(a,b));
     }
 }
