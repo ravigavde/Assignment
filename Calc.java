@@ -6,7 +6,14 @@ public class Calc
     }
     int sub(int a, int b)
     {
-        return(a-b);
+        if((a-b)>0)
+        {
+            return(a-b);
+        }
+        else
+        {
+            return(!(a-b));
+        }
     }
     public static void main(String arg[]) 
     {
