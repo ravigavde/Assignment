@@ -15,7 +15,7 @@ public class Calc
             return(!(a-b));
         }
     }
-    int div(int a, int b)
+     int div(int a, int b)
     {
         if(b==0)
         {
@@ -25,7 +25,7 @@ public class Calc
         {
             return(a/b);
         }
-    }
+     } 
     public static void main(String arg[]) 
     {
         int a = 0, int b = 0 ;
