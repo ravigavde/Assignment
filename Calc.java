@@ -15,6 +15,17 @@ public class Calc
             return(!(a-b));
         }
     }
+     int div(int a, int b)
+    {
+        if(b==0)
+        {
+            return(-1);
+        }
+        else
+        {
+            return(a/b);
+        }
+     } 
     public static void main(String arg[]) 
     {
         int a = 0, int b = 0 ;
@@ -26,5 +37,13 @@ public class Calc
         b = sc.nextInt();
         System.out.println("Addition is :- "+c.add(a,b));
         System.out.println("Subtraction is :- "+c.sub(a,b));
+        if((int h = c.div(a,b))!=-1)
+        {
+            System.out.println("Subtraction is :- "+c.div(a,b));
+        }
+        else
+        {
+            System.out.println("Cannot divide by zero ");
+        }
     }
 }
