@@ -18,5 +18,6 @@ public class Calc
         System.out.println("Enter Second number :-");
         b = sc.nextInt();
         System.out.println("Addition is :- "+c.add(a,b));
+        System.out.println("Multiplication is :- "+c.mul(a,b));
     }
 }
