@@ -4,6 +4,10 @@ public class Calc
     {
         return(a+b);
     }
+    int mul(int a,int b)
+    {
+        return(a*b);
+    }
     public static void main(String arg[]) 
     {
         int a = 0, int b = 0 ;
